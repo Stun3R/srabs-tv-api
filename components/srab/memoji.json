@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_avatar_memojis",
+  "info": {
+    "name": "Memoji",
+    "icon": "grin-tongue-wink",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "default": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "smile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

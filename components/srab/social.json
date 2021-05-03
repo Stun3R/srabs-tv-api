@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_srab_socials",
+  "info": {
+    "name": "Social",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "link": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

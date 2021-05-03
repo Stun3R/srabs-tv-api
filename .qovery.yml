@@ -4,21 +4,21 @@ application:
   project: "srabs-tv"
   organization: "QoveryCommunity"
   publicly_accessible: true
-  cpu: "800m"
-  ram: "512mb"
+  cpu: 2
+  ram: 1GB
   start_timeout: "480s"
   storage:
-  - name: "data"
-    size: "5GB"
-    type: "ssd"
-    mount_point: "/srv/app"
+    - name: "data"
+      size: "5GB"
+      type: "ssd"
+      mount_point: "/srv/app"
 databases:
-- type: "POSTGRESQL"
-  name: "my-psql"
-  version: "12"
+  - type: "POSTGRESQL"
+    name: "my-psql"
+    version: "12"
 routers:
-- name: "main"
-  routes:
-  - application_name: "strapi"
-    paths:
-    - "/*"
+  - name: "main"
+    routes:
+      - application_name: "strapi"
+        paths:
+          - "/*"
