@@ -25,9 +25,6 @@ module.exports = {
 
     // Get the twitch auth provider for specific srab
     const twitchService = strapi.services.twitch[entity.nickname];
-    console.log("nickname:", entity.nickname);
-    console.log("twitch:", strapi.services.twitch);
-    console.log("twitchService:", twitchService);
 
     // Getting channel info
     const response = await twitchService.kraken.channels.getMyChannel();
