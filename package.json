@@ -29,6 +29,7 @@
     "strapi-plugin-i18n": "3.6.1",
     "strapi-plugin-upload": "3.6.1",
     "strapi-plugin-users-permissions": "3.6.1",
+    "strapi-provider-upload-aws-s3": "^3.6.1",
     "strapi-utils": "3.6.1",
     "twitch": "^4.5.5",
     "twitch-auth": "^4.5.5"
